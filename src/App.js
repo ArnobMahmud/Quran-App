@@ -4,7 +4,6 @@ import Frame from "./components/frame";
 const App = () => {
   return (
     <div>
-      
       <Frame />
     </div>
   );

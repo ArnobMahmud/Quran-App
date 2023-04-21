@@ -6,81 +6,114 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600&family=Raleway:wght@100;200;300;400;500;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500');
 
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-body{
+body {
   background: #363e32;
   font-family: "Quicksand";
   overflow-x: hidden;
 }
 
-body::-webkit-scrollbar-track
-{
-	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
-	border-radius: 10px;
-	background-color: #7c7575;
+body::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  background-color: #7c7575;
 }
 
-body::-webkit-scrollbar
-{
-	width: 12px;
+body::-webkit-scrollbar {
+  width: 12px;
   background: #363e32;
 }
 
-body::-webkit-scrollbar-thumb
-{
-	border-radius: 10px;
-	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+body::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
   background: #363e32;
 }
 
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  a{
-    color: #f3c8d5;
-  }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a {
+  color: #f3c8d5;
+}
 
-  p{
-    color: rgb(240, 209, 209);
-  }
+p {
+  color: rgb(240, 209, 209);
+}
+
+.id {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+input {
+  background: transparent;
+  color: #f3c8d5;
+  width: 100%;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 50px;
+  margin-bottom: 20px;
+  border: 2px solid rgb(28, 40, 28) !important;
+}
+
+input:focus-visible {
+  outline: none;
+}
 
 .card {
-    width: auto;
-    margin: 30px 10px;
-    padding: 20px;
-    border-radius: 20px;
+  width: auto;
+  margin: 30px 10px;
+  padding: 20px;
+  border-radius: 20px;
   border-radius: 20px;
   background: #363e32;
-  box-shadow:  2px 2px 6px #2e352b,
-             -2px -2px 6px #3e473a;}
+  box-shadow: 2px 2px 6px #2e352b,
+    -2px -2px 6px #3e473a;
+}
 
 .infocard {
-    justify-content: space-around;
-    padding: 20px;
-    margin: 20px 10px;
-    border-radius: 20px;
-    background: #473333;
-    box-shadow: 5px 5px 5px #3c2b2b, -5px -5px 5px #523b3b;
-}
-.info{
-  text-align: center;
-}
-.verses{
-  text-align: right;
+  justify-content: space-around;
+  padding: 20px;
+  margin: 20px 10px;
+  border-radius: 20px;
+  background: #473333;
+  box-shadow: 5px 5px 5px #3c2b2b, -5px -5px 5px #523b3b;
 }
 
-.arabic{
+.info {
+  text-align: center;
+}
+
+.verses {
+  text-align: right;
+  letter-spacing: 2;
+}
+
+.arabic {
   margin: 5px 0px;
 }
 
-span{
+span {
   color: #f3c8d5;
+}
+
+.inforaw {
+  justify-content: space-around;
+}
+
+@media (max-width : 767px) {
+  .inforaw {
+    justify-content: center;
+  }
+
 }
