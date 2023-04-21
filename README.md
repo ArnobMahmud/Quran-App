@@ -9,6 +9,7 @@ Quran Majeed app with Bangla translation.
 
 ![Capture](https://user-images.githubusercontent.com/60808266/233625429-57c00b76-76c7-4584-98d8-692fdab222cf.PNG)
 
+![Capture](https://user-images.githubusercontent.com/60808266/233626245-be0bce3c-60d6-4eb0-bb60-a285dd482d56.PNG)
 
 ### `License`
 
@@ -33,7 +34,6 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
