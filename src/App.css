@@ -1,38 +1,86 @@
-.App {
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&family=Raleway:wght@200;300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&family=Ubuntu:wght@300;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Lora:wght@400;500;600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600&family=Raleway:wght@100;200;300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: #363e32;
+  font-family: "Quicksand";
+  overflow-x: hidden;
+}
+
+body::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #7c7575;
+}
+
+body::-webkit-scrollbar
+{
+	width: 12px;
+  background: #363e32;
+}
+
+body::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+  background: #363e32;
+}
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  a{
+    color: #f3c8d5;
+  }
+
+  p{
+    color: rgb(240, 209, 209);
+  }
+
+.card {
+    width: auto;
+    margin: 30px 10px;
+    padding: 20px;
+    border-radius: 20px;
+  border-radius: 20px;
+  background: #363e32;
+  box-shadow:  2px 2px 6px #2e352b,
+             -2px -2px 6px #3e473a;}
+
+.infocard {
+    justify-content: space-around;
+    padding: 20px;
+    margin: 20px 10px;
+    border-radius: 20px;
+    background: #473333;
+    box-shadow: 5px 5px 5px #3c2b2b, -5px -5px 5px #523b3b;
+}
+.info{
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.verses{
+  text-align: right;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.arabic{
+  margin: 5px 0px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+span{
+  color: #f3c8d5;
 }
