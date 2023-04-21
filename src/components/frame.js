@@ -58,12 +58,12 @@ const Frame = () => {
                           <h6>{e.translation}</h6>
                         </div>
                         <div className="row inforaw">
-                          <div className="col-xl-3 col-md-6 col-sm-12 card">
+                          <div className="col-xl-3 col-md-6 col-sm-5 card">
                             <h6>
                               <RxComponentPlaceholder /> Type : {e.type}
                             </h6>
                           </div>
-                          <div className="col-xl-3 col-md-6 col-sm-12 card">
+                          <div className="col-xl-3 col-md-6 col-sm-5 card">
                             <h6>
                               <BsLayoutTextSidebarReverse /> Total verse :{" "}
                               {e.total_verses}
@@ -77,7 +77,7 @@ const Frame = () => {
                           return (
                             <>
                               <span>
-                                {f.id}
+                                [ {f.id} ]
                                 <h4 className="arabic">{f.text}</h4>
                               </span>
                               <p>{f.translation}</p>

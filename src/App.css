@@ -112,8 +112,17 @@ span {
 }
 
 @media (max-width : 767px) {
+  .id .card {
+    border-radius: 10px;
+  }
+
   .inforaw {
     justify-content: center;
+
+  }
+
+  .inforaw .card {
+    margin: 10px 5px;
   }
 
 }
