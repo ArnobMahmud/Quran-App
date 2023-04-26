@@ -14,6 +14,16 @@ const Sidenav = () => {
           </li>
           <li className="nav-item card">
             <Link lassName="nav-link" to="/juz">
+              Ruku
+            </Link>
+          </li>
+          <li className="nav-item card">
+            <Link lassName="nav-link" to="/juz">
+              Sajdah
+            </Link>
+          </li>
+          <li className="nav-item card">
+            <Link lassName="nav-link" to="/juz">
               Juz
             </Link>
           </li>
@@ -45,5 +55,9 @@ const SideNavStyle = styled.div`
     margin: 10px 5px;
     padding: 20px;
     border-radius: 20px;
+  }
+
+  @media (max-width: 767px) {
+    position: relative;
   }
 `;

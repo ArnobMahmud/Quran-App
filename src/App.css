@@ -73,3 +73,7 @@ p {
   background: #473333;
   box-shadow: 5px 5px 5px #3c2b2b, -5px -5px 5px #523b3b;
 }
+
+img{
+  width: 200px;
+}

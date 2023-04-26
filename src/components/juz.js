@@ -1,7 +1,7 @@
 import React from "react";
 
 const Juz = () => {
-  return <div>Surah</div>;
+  return <div>Juz</div>;
 };
 
 export default Juz;

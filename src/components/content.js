@@ -32,7 +32,7 @@ const Content = () => {
       </div>
       {isPending && (
         <div className="card text-center align-items-center">
-          <img src={LoadingImg} />
+          <img src={LoadingImg} alt="img"/>
           <br></br>
           <p>Loading...</p>
         </div>
